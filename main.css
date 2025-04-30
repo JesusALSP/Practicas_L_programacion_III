@@ -1,0 +1,38 @@
+
+.texto:hover {
+  color: #9015b6;
+  transition: color 2s ease;
+}
+body {
+    background-color: #F0F8FF; /*  Ejemplo:  Azul cielo */
+
+    text-align: center;
+
+    
+  }
+
+input {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+ }
+ form{max-width: 300px; margin: 0 auto;}
+
+
+  .container { 
+    width: 1500px;
+    min-height: 80px;
+    background: rgba(46, 49, 53, 0.863);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  .texto {
+    color: #333;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}

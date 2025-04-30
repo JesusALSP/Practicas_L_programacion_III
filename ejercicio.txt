@@ -1,0 +1,5 @@
+la OMS requiere la elaboración que permita registrar datos a través de un formulario y 
+la muestre a través de una interfaz llamativa para el usuario
+
+nota: se debe tener en cuenta que los equipos para el despliegue de dicha aplicación poseen
+características un poco obsoletas, por lo tal se deben evaluar los requerimientos técnicos de manera optimizada
