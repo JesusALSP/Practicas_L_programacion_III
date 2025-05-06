@@ -1,0 +1,126 @@
+body {
+    background: #648694;
+}
+
+.contenedor {
+    display: flex; /* Usar flexbox para alinear los elementos */
+    justify-content: space-between; /* Espacio entre los elementos */
+    width: 800px; /* Ajusta el ancho según sea necesario */
+    margin: 20px auto; /* Centrar el contenedor */
+    background-color: #f0f0f0;
+    padding: 20px; 
+    border: 1px solid #ccc;
+}
+
+img { 
+    float: left;
+    width: 300px;
+    height: 250px;
+    border: 2px solid black;
+    margin-right: 20px; 
+}
+
+.ini {
+    position: fixed;
+    top: 20%;
+    left: 40%;
+    width: 300px;
+    height: 350px;
+    border: 2px solid black;
+    margin-right: 20px;
+}
+
+
+
+form {
+    position: fixed;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+form input,
+form textarea,
+form select {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+
+.boton-flotante {
+    position: page;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 70%;
+    font-size: 38px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.boton-flotante:hover {
+    animation: blink 2s ease 3 normal;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+
+.boton2 {
+    position: fixed;
+    top: 77%;
+    left: 50%;
+}
+
+
+.container {
+    position: fixed;
+    top: 80%;
+    left: 0%;
+    width: 1500px;
+    min-height: 80px;
+    background: rgba(46, 49, 53, 0.863);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+
+p {
+    position: fixed;
+    top: 16%;
+    left: 53%;
+    border: 2px solid #ccc;
+    background-color: #fff;
+}
+
+.texto:hover {
+    color: #9ff7a9;
+    transition: color 2s ease;
+}
